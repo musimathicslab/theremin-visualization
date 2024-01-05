@@ -1,0 +1,6 @@
+2023/11/16-20:30:45.512 4ac8 Creating DB E:/Unreal Engine/Projects/Tirocinio/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2023/11/16-20:30:45.778 4ac8 Reusing MANIFEST E:/Unreal Engine/Projects/Tirocinio/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/16-20:31:18.628 2be0 Level-0 table #5: started
+2023/11/16-20:31:18.749 2be0 Level-0 table #5: 1166 bytes OK
+2023/11/16-20:31:18.797 2be0 Delete type=0 #3
+2023/11/16-20:31:18.798 2be0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
