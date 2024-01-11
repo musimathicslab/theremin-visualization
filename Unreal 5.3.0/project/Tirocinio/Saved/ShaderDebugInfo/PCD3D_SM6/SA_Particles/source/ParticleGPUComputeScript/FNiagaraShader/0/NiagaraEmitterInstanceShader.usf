@@ -1,0 +1,1799 @@
+#line 1 "DumpShaderDefinesAsCommentedCode"
+// #define __SHADER_TARGET_MAJOR 6
+
+#line 2 "DumpShaderDefinesAsCommentedCode"
+// #define __SHADER_TARGET_MINOR 6
+
+#line 3 "DumpShaderDefinesAsCommentedCode"
+// #define ALLOW_STATIC_LIGHTING 1
+
+#line 4 "DumpShaderDefinesAsCommentedCode"
+// #define AMPLIFICATIONSHADER 0
+
+#line 5 "DumpShaderDefinesAsCommentedCode"
+// #define CLEAR_COAT_BOTTOM_NORMAL 0
+
+#line 6 "DumpShaderDefinesAsCommentedCode"
+// #define COMPILE_SHADERS_FOR_DEVELOPMENT 1
+
+#line 7 "DumpShaderDefinesAsCommentedCode"
+// #define COMPILER_DEFINE #define
+
+#line 8 "DumpShaderDefinesAsCommentedCode"
+// #define COMPILER_DXC 1
+
+#line 9 "DumpShaderDefinesAsCommentedCode"
+// #define COMPUTESHADER 1
+
+#line 10 "DumpShaderDefinesAsCommentedCode"
+// #define DO_CHECK 1
+
+#line 11 "DumpShaderDefinesAsCommentedCode"
+// #define DO_GUARD_SLOW 0
+
+#line 12 "DumpShaderDefinesAsCommentedCode"
+// #define DXT5_NORMALMAPS 0
+
+#line 13 "DumpShaderDefinesAsCommentedCode"
+// #define EARLY_Z_PASS_ONLY_MATERIAL_MASKING 0
+
+#line 14 "DumpShaderDefinesAsCommentedCode"
+// #define FORWARD_SHADING 0
+
+#line 15 "DumpShaderDefinesAsCommentedCode"
+// #define GBUFFER_HAS_DIFFUSE_SAMPLE_OCCLUSION 0
+
+#line 16 "DumpShaderDefinesAsCommentedCode"
+// #define GBUFFER_HAS_VELOCITY 0
+
+#line 17 "DumpShaderDefinesAsCommentedCode"
+// #define GBUFFER_REFACTOR 1
+
+#line 18 "DumpShaderDefinesAsCommentedCode"
+// #define GEOMETRYSHADER 0
+
+#line 19 "DumpShaderDefinesAsCommentedCode"
+// #define GPU_SIMULATION 1
+
+#line 20 "DumpShaderDefinesAsCommentedCode"
+// #define GPU_SIMULATION_SHADER 1
+
+#line 21 "DumpShaderDefinesAsCommentedCode"
+// #define HAS_INVERTED_Z_BUFFER 1
+
+#line 22 "DumpShaderDefinesAsCommentedCode"
+// #define INSTANCED_STEREO 0
+
+#line 23 "DumpShaderDefinesAsCommentedCode"
+// #define IRIS_NORMAL 0
+
+#line 24 "DumpShaderDefinesAsCommentedCode"
+// #define LEGACY_MATERIAL_ENERGYCONSERVATION 0
+
+#line 25 "DumpShaderDefinesAsCommentedCode"
+// #define MATERIAL_ROUGHDIFFUSE 0
+
+#line 26 "DumpShaderDefinesAsCommentedCode"
+// #define MESHSHADER 0
+
+#line 27 "DumpShaderDefinesAsCommentedCode"
+// #define MOBILE_MULTI_VIEW 0
+
+#line 28 "DumpShaderDefinesAsCommentedCode"
+// #define MULTI_VIEW 0
+
+#line 29 "DumpShaderDefinesAsCommentedCode"
+// #define NIAGARA_COMPRESSED_ATTRIBUTES_ENABLED 0
+
+#line 30 "DumpShaderDefinesAsCommentedCode"
+// #define NIAGARA_DISPATCH_INDIRECT 0
+
+#line 31 "DumpShaderDefinesAsCommentedCode"
+// #define NIAGARA_DISPATCH_TYPE 0
+
+#line 32 "DumpShaderDefinesAsCommentedCode"
+// #define NIAGARA_MAX_GPU_SPAWN_INFOS 8
+
+#line 33 "DumpShaderDefinesAsCommentedCode"
+// #define PIXELSHADER 0
+
+#line 34 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_ALLOW_SCENE_DATA_COMPRESSED_TRANSFORMS 1
+
+#line 35 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_BINDLESS 0
+
+#line 36 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_BUFFER_LOAD_TYPE_CONVERSION 1
+
+#line 37 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_CLIP_DISTANCE 1
+
+#line 38 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_DISTANCE_FIELDS 1
+
+#line 39 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER0 1
+
+#line 40 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER1 1
+
+#line 41 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_PER_PIXEL_DBUFFER_MASK 0
+
+#line 42 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_RENDERTARGET_WRITE_MASK 0
+
+#line 43 "DumpShaderDefinesAsCommentedCode"
+// #define PLATFORM_SUPPORTS_UB_STRUCT 1
+
+#line 44 "DumpShaderDefinesAsCommentedCode"
+// #define POST_PROCESS_ALPHA 0
+
+#line 45 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_ALLOW_GLOBAL_CLIP_PLANE 0
+
+#line 46 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_MOBILE_DISABLE_VERTEX_FOG 1
+
+#line 47 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_OIT 0
+
+#line 48 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_STRATA_BACKCOMPATIBILITY 0
+
+#line 49 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE 1
+
+#line 50 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE_AFFECTS_HEIGHFOG 1
+
+#line 51 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_SUPPORTS_LUMEN 1
+
+#line 52 "DumpShaderDefinesAsCommentedCode"
+// #define PROJECT_VERTEX_FOGGING_FOR_OPAQUE 0
+
+#line 53 "DumpShaderDefinesAsCommentedCode"
+// #define RAYCALLABLESHADER 0
+
+#line 54 "DumpShaderDefinesAsCommentedCode"
+// #define RAYGENSHADER 0
+
+#line 55 "DumpShaderDefinesAsCommentedCode"
+// #define RAYHITGROUPSHADER 0
+
+#line 56 "DumpShaderDefinesAsCommentedCode"
+// #define RAYMISSSHADER 0
+
+#line 57 "DumpShaderDefinesAsCommentedCode"
+// #define SELECTIVE_BASEPASS_OUTPUTS 0
+
+#line 58 "DumpShaderDefinesAsCommentedCode"
+// #define SHADING_PATH_DEFERRED 1
+
+#line 59 "DumpShaderDefinesAsCommentedCode"
+// #define SimulationStageIndex 0
+
+#line 60 "DumpShaderDefinesAsCommentedCode"
+// #define SM6_PROFILE 1
+
+#line 61 "DumpShaderDefinesAsCommentedCode"
+// #define STRATA_ADVANCED_DEBUG_ENABLED 0
+
+#line 62 "DumpShaderDefinesAsCommentedCode"
+// #define STRATA_ENABLED 0
+
+#line 63 "DumpShaderDefinesAsCommentedCode"
+// #define STRATA_OPAQUE_ROUGH_REFRACTION_ENABLED 0
+
+#line 64 "DumpShaderDefinesAsCommentedCode"
+// #define SUPPORT_CLOUD_SHADOW_ON_FORWARD_LIT_TRANSLUCENT 0
+
+#line 65 "DumpShaderDefinesAsCommentedCode"
+// #define SUPPORT_CLOUD_SHADOW_ON_SINGLE_LAYER_WATER 0
+
+#line 66 "DumpShaderDefinesAsCommentedCode"
+// #define SUPPORT_RECTLIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+
+#line 67 "DumpShaderDefinesAsCommentedCode"
+// #define SUPPORT_VSM_FOWARD_QUALITY 0
+
+#line 68 "DumpShaderDefinesAsCommentedCode"
+// #define THREADGROUP_SIZE 64
+
+#line 69 "DumpShaderDefinesAsCommentedCode"
+// #define THREADGROUP_SIZE_X 64
+
+#line 70 "DumpShaderDefinesAsCommentedCode"
+// #define THREADGROUP_SIZE_Y 1
+
+#line 71 "DumpShaderDefinesAsCommentedCode"
+// #define THREADGROUP_SIZE_Z 1
+
+#line 72 "DumpShaderDefinesAsCommentedCode"
+// #define UE_LWC_RENDER_TILE_SIZE 2097152.00f
+
+#line 73 "DumpShaderDefinesAsCommentedCode"
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_2PI 0.673652053f
+
+#line 74 "DumpShaderDefinesAsCommentedCode"
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_PI 0.673652053f
+
+#line 75 "DumpShaderDefinesAsCommentedCode"
+// #define UE_LWC_RENDER_TILE_SIZE_RCP 4.76837158e-07f
+
+#line 76 "DumpShaderDefinesAsCommentedCode"
+// #define UE_LWC_RENDER_TILE_SIZE_RSQRT 0.000690533954f
+
+#line 77 "DumpShaderDefinesAsCommentedCode"
+// #define UE_LWC_RENDER_TILE_SIZE_SQRT 1448.15466f
+
+#line 78 "DumpShaderDefinesAsCommentedCode"
+// #define USE_DBUFFER 1
+
+#line 79 "DumpShaderDefinesAsCommentedCode"
+// #define USE_WAVE_INTRINSICS 0
+
+#line 80 "DumpShaderDefinesAsCommentedCode"
+// #define VELOCITY_ENCODE_DEPTH 1
+
+#line 81 "DumpShaderDefinesAsCommentedCode"
+// #define VERTEXSHADER 0
+
+#line 82 "DumpShaderDefinesAsCommentedCode"
+// #define VIRTUAL_TEXTURE_ANISOTROPIC_FILTERING 0
+
+#line 83 "DumpShaderDefinesAsCommentedCode"
+// #define WORKING_COLOR_SPACE_IS_SRGB 1
+
+#line 6 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+#pragma warning(disable:4008)
+
+#line 110 "/Engine/Private/Random.ush"
+uint3 Rand3DPCG32(int3 p)
+{
+	
+	uint3 v = uint3(p);
+
+	
+	v = v * 1664525u + 1013904223u;
+
+	
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+
+	
+	v ^= v >> 16u;
+
+	
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+
+	return v;
+}
+
+#line 30 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 ModuloPrecise(float4 x, float4 y){ return x - y * trunc(x/y); }
+
+#line 31 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 ModuloPrecise(float3 x, float3 y){ return x - y * trunc(x/y); }
+
+#line 32 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 ModuloPrecise(float2 x, float2 y){ return x - y * trunc(x/y);}
+
+#line 33 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float ModuloPrecise(float x, float y){ return x - y * trunc(x/y); }
+
+#line 34 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int ModuloPrecise(int x, int y){ return x - y * (x/y); }
+
+#line 46 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+bool NiagaraAll(bool b) { return b; }
+
+#line 49 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+bool NiagaraAll(bool2 b) { return all(b); }
+
+#line 50 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+bool NiagaraAll(bool3 b) { return all(b); }
+
+#line 51 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+bool NiagaraAll(bool4 b) { return all(b); }
+
+#line 89 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint3 DispatchThreadIdToLinear;
+
+#line 92 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint3 GDispatchThreadId;
+
+#line 93 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint3 GGroupId;
+
+#line 94 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint3 GGroupThreadId;
+
+#line 95 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint  GGroupIndex;
+
+#line 96 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint GLinearThreadId;
+
+#line 97 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint GEmitterTickCounter;
+
+#line 98 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint GRandomSeedOffset = 0;
+
+#line 107 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint EmitterTickCounter;
+
+#line 127 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float NiagaraInternalNoise(uint u, uint v, uint s)
+	{
+		uint Seed = (u * 1664525u + v) + s + GRandomSeedOffset;
+		GRandomSeedOffset += Seed;
+		return float(Rand3DPCG32(int3(u,v,Seed)).x) / 4294967296.0f;
+	}
+
+#line 137 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int4	EmitterSpawnInfoOffsets[((8 + 3) / 4)];
+
+#line 138 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4	EmitterSpawnInfoParams[8];
+
+#line 141 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static float Emitter_SpawnInterval;
+
+#line 142 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static float Emitter_InterpSpawnStartDt;
+
+#line 143 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int Emitter_SpawnGroup;
+
+#line 145 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int Engine_ExecutionCount;
+
+#line 146 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int GGPUExecIndex;
+
+#line 148 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static uint GSpawnStartInstance;
+
+#line 149 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint NumSpawnedInstances;
+
+#line 151 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void SetupExecIndexForGPU()
+	{
+		GGPUExecIndex = GLinearThreadId;
+		Engine_ExecutionCount = GSpawnStartInstance;
+	}
+
+#line 157 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void SetupExecIndexAndSpawnInfoForGPU()
+	{
+		GGPUExecIndex = GLinearThreadId - GSpawnStartInstance;
+
+		int SpawnInfoIndex = 0;
+		[unroll]
+		for (int i = 0; i < ((8 + 3) / 4); ++i)
+		{
+			
+			
+			int4 CompareResults = GGPUExecIndex >= EmitterSpawnInfoOffsets[i];
+			CompareResults = CompareResults & int4(1, 1, 1, 1);
+			SpawnInfoIndex += CompareResults.x + CompareResults.y + CompareResults.z + CompareResults.w;
+		}
+
+		Emitter_SpawnInterval		= EmitterSpawnInfoParams[SpawnInfoIndex].x;
+		Emitter_InterpSpawnStartDt	= EmitterSpawnInfoParams[SpawnInfoIndex].y;
+		Emitter_SpawnGroup			= asint(EmitterSpawnInfoParams[SpawnInfoIndex].z);
+
+		int GroupSpawnStartIndex    = asint(EmitterSpawnInfoParams[SpawnInfoIndex].w);
+		GGPUExecIndex		        = GGPUExecIndex - GroupSpawnStartIndex;
+		if ( SpawnInfoIndex == (8 - 1) )
+		{
+			Engine_ExecutionCount   = int(NumSpawnedInstances) - GroupSpawnStartIndex;
+		}
+		else
+		{
+			int NextGroupSpawnStartIndex = asint(EmitterSpawnInfoParams[SpawnInfoIndex + 1].w);
+			Engine_ExecutionCount       = NextGroupSpawnStartIndex - GroupSpawnStartIndex;
+		}
+	}
+
+#line 191 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int ExecIndex()
+	{
+		return GGPUExecIndex;
+	}
+
+#line 228 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand4(int Seed1, int Seed2, int Seed3, int Seed4)
+{
+	int4 v = int4(Seed4, Seed1, Seed2, Seed3) * 1664525 + 1013904223;
+
+	v.x += v.y*v.w;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+	v.w += v.y*v.z;
+	v.x += v.y*v.w;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+	v.w += v.y*v.z;
+
+	
+	
+	
+
+	
+	return float4((v >> 8) & 0x00ffffff) / 16777216.0; 
+	
+}
+
+#line 256 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand3(int Seed1, int Seed2, int Seed3, int Seed4)
+{
+	int3 v = int3(Seed1, Seed2, Seed4 | (Seed3 << 16)) * 1664525 + 1013904223;
+
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+	v.x += v.y*v.z;
+	v.y += v.z*v.x;
+	v.z += v.x*v.y;
+
+	return float3((v >> 8) & 0x00ffffff) / 16777216.0; 
+}
+
+#line 271 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int RandomCounterDeterministic = 0;
+
+#line 274 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand(float x, int Seed1, int Seed2, int Seed3)
+{
+	RandomCounterDeterministic += 1;
+	return rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).x * x;
+}
+
+#line 281 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand(float2 x, int Seed1, int Seed2, int Seed3)
+{
+	RandomCounterDeterministic += 1;
+	return rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).xy * x;
+}
+
+#line 288 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand(float3 x, int Seed1, int Seed2, int Seed3)
+{
+	RandomCounterDeterministic += 1;
+	return rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).xyz * x;
+}
+
+#line 295 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand(float4 x, int Seed1, int Seed2, int Seed3) 
+{
+	RandomCounterDeterministic += 1;
+	return rand4(Seed1, Seed2, Seed3, RandomCounterDeterministic).xyzw * x;
+}
+
+#line 302 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int rand(int x, int Seed1, int Seed2, int Seed3)
+{
+	
+	
+	RandomCounterDeterministic += 1;
+	return int(rand3(Seed1, Seed2, Seed3, RandomCounterDeterministic).x * (x+1));
+}
+
+#line 323 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+static int RandomCounterNonDeterministic = -1;
+
+#line 325 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand(float x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).x * x;
+	}
+
+#line 331 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand(float2 x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).xy * x;
+	}
+
+#line 337 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand(float3 x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).xyz * x;
+	}
+
+#line 343 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand(float4 x) 
+	{
+		RandomCounterNonDeterministic -= 1;
+		return rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).xyzw * x;
+	}
+
+#line 350 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int rand(int x)
+	{
+		RandomCounterNonDeterministic -= 1;
+		return int(rand4(GLinearThreadId, EmitterTickCounter, GLinearThreadId, RandomCounterNonDeterministic).x * (x+1));
+	}
+
+#line 407 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand_float(float x)
+{
+	return rand(x.x);
+}
+
+#line 412 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand_float(float2 x)
+{
+	return float2(rand_float(x.x), rand_float(x.y));
+}
+
+#line 417 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand_float(float3 x)
+{
+	return float3(rand_float(x.x), rand_float(x.y), rand_float(x.z));
+}
+
+#line 422 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand_float(float4 x) 
+{
+	return float4(rand_float(x.x), rand_float(x.y), rand_float(x.z), rand_float(x.w));
+}
+
+#line 436 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float rand_float(float x, int Seed1, int Seed2, int Seed3)
+{
+	return rand(x.x, Seed1, Seed2, Seed3);
+}
+
+#line 441 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float2 rand_float(float2 x, int Seed1, int Seed2, int Seed3)
+{
+	return rand(x, Seed1, Seed2, Seed3);
+}
+
+#line 446 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float3 rand_float(float3 x, int Seed1, int Seed2, int Seed3)
+{
+	return rand(x, Seed1, Seed2, Seed3);
+}
+
+#line 451 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float4 rand_float(float4 x, int Seed1, int Seed2, int Seed3) 
+{
+	return rand(x, Seed1, Seed2, Seed3);
+}
+
+#line 512 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint ComponentBufferSizeRead;
+
+#line 513 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint ComponentBufferSizeWrite;
+
+#line 519 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+Buffer<float> InputFloat;
+
+#line 520 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+Buffer<int> InputInt;
+
+#line 523 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+RWBuffer<int> RWOutputInt;
+
+#line 524 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+RWBuffer<float> RWOutputFloat;
+
+#line 529 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+RWBuffer<uint> RWInstanceCounts;
+
+#line 530 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint ReadInstanceCountOffset;
+
+#line 531 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+uint WriteInstanceCountOffset;
+
+#line 584 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+groupshared uint GroupSharedIndex[64];
+
+#line 585 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+groupshared uint GroupSharedIndex4[16];
+
+#line 586 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+groupshared uint GroupSharedIndex16[4];
+
+#line 587 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+groupshared uint GroupSharedIndex64;
+
+#line 599 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int AcquireIndex(uniform int DataSetID, bool bDoAcquire)
+	{
+		
+		int MustBe0[1];
+		MustBe0[DataSetID] = 0;
+		
+
+		int PrevIdx = GSpawnStartInstance + NumSpawnedInstances;	
+
+		
+#line 628 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+
+
+			GroupSharedIndex[GGroupThreadId.x] = bDoAcquire ? 1 : 0;
+			GroupMemoryBarrierWithGroupSync(); 
+
+			
+			if ((GGroupThreadId.x & 0x3) == 0)
+			{
+				const uint Index = GGroupThreadId.x;
+
+				const uint ActiveCount1 = GroupSharedIndex[Index];
+				const uint ActiveCount2 = ActiveCount1 + GroupSharedIndex[Index + 1];
+				const uint ActiveCount3 = ActiveCount2 + GroupSharedIndex[Index + 2];
+				const uint ActiveCount4 = ActiveCount3 + GroupSharedIndex[Index + 3];
+				
+				GroupSharedIndex[Index] = 0;
+				GroupSharedIndex[Index + 1] = ActiveCount1;
+				GroupSharedIndex[Index + 2] = ActiveCount2;
+				GroupSharedIndex[Index + 3] = ActiveCount3;
+				GroupSharedIndex4[Index / 4] = ActiveCount4;
+			}
+			GroupMemoryBarrierWithGroupSync(); 
+
+			
+			if ((GGroupThreadId.x & 0xF) == 0)
+			{
+				const uint Index = GGroupThreadId.x / 4;
+
+				const uint ActiveCount1 = GroupSharedIndex4[Index];
+				const uint ActiveCount2 = ActiveCount1 + GroupSharedIndex4[Index + 1];
+				const uint ActiveCount3 = ActiveCount2 + GroupSharedIndex4[Index + 2];
+				const uint ActiveCount4 = ActiveCount3 + GroupSharedIndex4[Index + 3];
+
+				GroupSharedIndex4[Index] = 0;
+				GroupSharedIndex4[Index + 1] = ActiveCount1;
+				GroupSharedIndex4[Index + 2] = ActiveCount2;
+				GroupSharedIndex4[Index + 3] = ActiveCount3;
+				GroupSharedIndex16[Index / 4] = ActiveCount4;
+			}
+			GroupMemoryBarrierWithGroupSync(); 
+
+			
+			if ((GGroupThreadId.x & 0x3F) == 0)
+			{
+				const uint Index = GGroupThreadId.x / 16;
+				uint RetPrevIdx = 0;
+		
+				const uint ActiveCount1 = GroupSharedIndex16[Index];
+				const uint ActiveCount2 = ActiveCount1 + GroupSharedIndex16[Index + 1];
+		
+				const uint ActiveCount3 = ActiveCount2 + GroupSharedIndex16[Index + 2];
+				const uint ActiveCount4 = ActiveCount3 + GroupSharedIndex16[Index + 3];
+		
+
+				GroupSharedIndex16[Index] = 0;
+				GroupSharedIndex16[Index + 1] = ActiveCount1;
+		
+				GroupSharedIndex16[Index + 2] = ActiveCount2;
+				GroupSharedIndex16[Index + 3] = ActiveCount3;
+
+				InterlockedAdd(RWInstanceCounts[WriteInstanceCountOffset], ActiveCount4, RetPrevIdx);
+		
+
+
+				GroupSharedIndex64 = RetPrevIdx;
+			}
+			GroupMemoryBarrierWithGroupSync(); 
+
+			PrevIdx = GroupSharedIndex64 + GroupSharedIndex16[GGroupThreadId.x / 16] + GroupSharedIndex4[GGroupThreadId.x / 4] + GroupSharedIndex[GGroupThreadId.x];
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+		return PrevIdx;
+	}
+
+#line 718 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+float InputDataFloat(int DataSetIndex, int RegisterIdx, int InstanceIdx)
+	{
+		
+
+
+			return InputFloat[RegisterIdx*ComponentBufferSizeRead + InstanceIdx];
+		
+	}
+
+#line 727 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int InputDataInt(int DataSetIndex, int RegisterIdx, int InstanceIdx)
+	{
+		
+
+
+			return InputInt[RegisterIdx*ComponentBufferSizeRead + InstanceIdx];
+		
+	}
+
+#line 758 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void OutputDataFloat(int DataSetIndex, int RegisterIndex, int InstanceIndex, float Value)
+	{
+		RWOutputFloat[RegisterIndex*ComponentBufferSizeWrite + InstanceIndex] = Value;
+	}
+
+#line 763 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void OutputDataInt(int DataSetIndex, int RegisterIndex, int InstanceIndex, int Value)
+	{
+		RWOutputInt[RegisterIndex*ComponentBufferSizeWrite + InstanceIndex] = Value;
+	}
+
+#line 778 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void EnterStatScope(int ID)	{}
+
+#line 779 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+void ExitStatScope()	{}
+
+#line 785 "/Plugin/FX/Niagara/Private/NiagaraEmitterInstanceShader.usf"
+int OutputIndex(const int DataSetID, const bool bStageKillsParticles, const bool bIsValid)
+	{
+	
+		
+		
+		
+		
+		
+		if (!bStageKillsParticles)
+		{
+			return GLinearThreadId;
+		}
+	
+
+		return AcquireIndex(DataSetID, bIsValid);
+	}
+
+#line 20 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_WorldDeltaTime;
+
+#line 21 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_DeltaTime;
+
+#line 22 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_InverseDeltaTime;
+
+#line 23 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_Time;
+
+#line 24 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_RealTime;
+
+#line 31 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_Time;
+
+#line 32 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_RealTime;
+
+#line 36 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_Owner_TimeSinceRendered;
+
+#line 37 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_Owner_LODDistance;
+
+#line 38 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_Owner_LODDistanceFraction;
+
+#line 39 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Engine_System_Age;
+
+#line 45 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int Engine_System_RandomSeed;
+
+#line 52 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_Owner_TimeSinceRendered;
+
+#line 53 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_Owner_LODDistance;
+
+#line 54 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_Owner_LODDistanceFraction;
+
+#line 55 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Engine_System_Age;
+
+#line 74 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 Engine_Owner_Rotation;
+
+#line 75 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_Position;
+
+#line 77 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_Velocity;
+
+#line 79 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_SystemXAxis;
+
+#line 81 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_SystemYAxis;
+
+#line 83 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_SystemZAxis;
+
+#line 85 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 Engine_Owner_Scale;
+
+#line 87 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 Engine_Owner_LWCTile;
+
+#line 94 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 PREV_Engine_Owner_Rotation;
+
+#line 95 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_Position;
+
+#line 97 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_Velocity;
+
+#line 99 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_SystemXAxis;
+
+#line 101 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_SystemYAxis;
+
+#line 103 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_SystemZAxis;
+
+#line 105 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float3 PREV_Engine_Owner_Scale;
+
+#line 107 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float4 PREV_Engine_Owner_LWCTile;
+
+#line 109 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int Engine_Emitter_TotalSpawnedParticles;
+
+#line 111 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float Emitter_Age;
+
+#line 112 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int Emitter_RandomSeed;
+
+#line 113 "/Engine/Generated/NiagaraEmitterInstance.ush"
+int Engine_Emitter_InstanceSeed;
+
+#line 119 "/Engine/Generated/NiagaraEmitterInstance.ush"
+float PREV_Emitter_Age;
+
+#line 124 "/Engine/Generated/NiagaraEmitterInstance.ush"
+cbuffer FNiagaraExternalParameters
+{
+	float Constants_Emitter_InitializeParticle_Lifetime;
+	float4 Constants_Emitter_InitializeParticle_PositionOffset;
+	float Emitter_DistanceTraveled;
+	int Emitter_ExecutionState;
+	int System_ExecutionState;
+	float Constants_Emitter_ScratchModule_alpha;
+	float Constants_Emitter_ScratchModule_beta;
+	float Constants_Emitter_ScratchModule_delta;
+	float Constants_Emitter_ScratchModule_epsilon;
+	float Constants_Emitter_ScratchModule_rho;
+	float Constants_Emitter_ScratchModule_zeta;
+	float Emitter_SpawnRate;
+}
+
+#line 140 "/Engine/Generated/NiagaraEmitterInstance.ush"
+cbuffer PREV_FNiagaraExternalParameters
+{
+	float PREV_Constants_Emitter_InitializeParticle_Lifetime;
+	float4 PREV_Constants_Emitter_InitializeParticle_PositionOffset;
+	float PREV_Emitter_DistanceTraveled;
+	int PREV_Emitter_ExecutionState;
+	int PREV_System_ExecutionState;
+	float PREV_Constants_Emitter_ScratchModule_alpha;
+	float PREV_Constants_Emitter_ScratchModule_beta;
+	float PREV_Constants_Emitter_ScratchModule_delta;
+	float PREV_Constants_Emitter_ScratchModule_epsilon;
+	float PREV_Constants_Emitter_ScratchModule_rho;
+	float PREV_Constants_Emitter_ScratchModule_zeta;
+	float PREV_Emitter_SpawnRate;
+}
+
+#line 156 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Transient
+{
+	bool FirstFrame;
+};
+
+#line 161 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_System
+{
+	int ExecutionState;
+};
+
+#line 166 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_ScratchModule
+{
+	float3 pos;
+};
+
+#line 171 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_ParticleState
+{
+	float DeltaTime;
+	bool LetInfinitelyLivedParticlesDieWhenEmitterDeactivates;
+	float Lifetime;
+	bool LoopParticlesLifetime;
+};
+
+#line 179 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles_Previous
+{
+	float3 Position;
+	float3 Velocity;
+};
+
+#line 185 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Particles
+{
+	float Age;
+	float Lifetime;
+	float Mass;
+	float MaterialRandom;
+	float NormalizedAge;
+	float3 Position;
+	FParamMap0_Particles_Previous Previous;
+	float RibbonUVDistance;
+	int UniqueID;
+	float3 Velocity;
+};
+
+#line 199 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR_ParticleState
+{
+	bool FirstFrame;
+};
+
+#line 204 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_OUTPUT_VAR
+{
+	FParamMap0_OUTPUT_VAR_ParticleState ParticleState;
+};
+
+#line 209 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local_InitializeParticle
+{
+	float InitRIbbonDistance;
+};
+
+#line 214 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Local
+{
+	FParamMap0_Local_InitializeParticle InitializeParticle;
+};
+
+#line 219 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Interpolation
+{
+	float Emitter_InterpSpawnStartDt;
+	int Emitter_SpawnGroup;
+	float Emitter_SpawnInterval;
+	int InterpSpawn_Index;
+	float InterpSpawn_InvSpawnTime;
+	float InterpSpawn_InvUpdateTime;
+	float InterpSpawn_SpawnTime;
+	float InterpSpawn_UpdateTime;
+	float SpawnInterp;
+};
+
+#line 232 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_InitializeParticle
+{
+	float MaterialRandom;
+	int PositionOffsetCoordinateSpace;
+};
+
+#line 238 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine_System
+{
+	float Age;
+	int CurrentTimeStep;
+	int NumEmitters;
+	int NumEmittersAlive;
+	int NumParticles;
+	int NumTimeSteps;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	int RandomSeed;
+	int SignificanceIndex;
+	int TickCount;
+	float TimeStepFraction;
+};
+
+#line 254 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine_Owner
+{
+	int ExecutionState;
+	float LODDistance;
+	float LODDistanceFraction;
+	float4 LWCTile;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	int PaddingInt32_2;
+	int PaddingInt32_3;
+	int PaddingInt32_4;
+	int PaddingInt32_5;
+	float3 Position;
+	float4 Rotation;
+	float3 Scale;
+	float4x4 SystemLocalToWorld;
+	float4x4 SystemLocalToWorldNoScale;
+	float4x4 SystemLocalToWorldTransposed;
+	float4x4 SystemWorldToLocal;
+	float4x4 SystemWorldToLocalNoScale;
+	float4x4 SystemWorldToLocalTransposed;
+	float3 SystemXAxis;
+	float3 SystemYAxis;
+	float3 SystemZAxis;
+	float TimeSinceRendered;
+	float3 Velocity;
+};
+
+#line 282 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine_Emitter
+{
+	int InstanceSeed;
+	int NumParticles;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	float SpawnCountScale;
+	int TotalSpawnedParticles;
+};
+
+#line 292 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Engine
+{
+	float DeltaTime;
+	FParamMap0_Engine_Emitter Emitter;
+	int ExecutionCount;
+	float InverseDeltaTime;
+	FParamMap0_Engine_Owner Owner;
+	int PaddingInt32_0;
+	int PaddingInt32_1;
+	int QualityLevel;
+	float RealTime;
+	FParamMap0_Engine_System System;
+	float Time;
+	float WorldDeltaTime;
+};
+
+#line 308 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Emitter
+{
+	float Age;
+	float DistanceTraveled;
+	int ExecutionState;
+	int RandomSeed;
+	float SpawnRate;
+};
+
+#line 317 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_DataInstance
+{
+	bool Alive;
+};
+
+#line 322 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_ConvertPositionToVector
+{
+	float3 InputPosition;
+};
+
+#line 327 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array_Previous
+{
+	int Position;
+	int Velocity;
+};
+
+#line 333 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0_Array
+{
+	int Age;
+	int Lifetime;
+	int Mass;
+	int MaterialRandom;
+	int NormalizedAge;
+	int Position;
+	FParamMap0_Array_Previous Previous;
+	int RibbonUVDistance;
+	int UniqueID;
+	int Velocity;
+};
+
+#line 347 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FParamMap0
+{
+	FParamMap0_Array Array;
+	FParamMap0_ConvertPositionToVector ConvertPositionToVector;
+	FParamMap0_DataInstance DataInstance;
+	FParamMap0_Emitter Emitter;
+	FParamMap0_Engine Engine;
+	FParamMap0_InitializeParticle InitializeParticle;
+	FParamMap0_Interpolation Interpolation;
+	FParamMap0_Local Local;
+	FParamMap0_OUTPUT_VAR OUTPUT_VAR;
+	FParamMap0_Particles Particles;
+	FParamMap0_ParticleState ParticleState;
+	FParamMap0_ScratchModule ScratchModule;
+	FParamMap0_System System;
+	FParamMap0_Transient Transient;
+};
+
+#line 365 "/Engine/Generated/NiagaraEmitterInstance.ush"
+struct FSimulationContext
+{
+
+	FParamMap0 MapSpawn;
+
+
+	FParamMap0 MapUpdate;
+
+};
+
+#line 375 "/Engine/Generated/NiagaraEmitterInstance.ush"
+static float HackSpawnInterp = 1.0;
+
+#line 376 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_(int In_Engine_System_RandomSeed, float In_FloatMin, float In_FloatMax, int In_Seed, int In_Engine_System_TickCount, int In_Particles_UniqueID, int In_Emitter_RandomSeed, int In_Engine_Emitter_InstanceSeed, out float Out_RandomFloat, out bool Out_IsDeterministic, inout FSimulationContext Context);
+
+#line 377 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void NiagaraScript_333_Particle_Func_(float3 In_Engine_Owner_Position, out float3 Out_SimulationPosition, inout FSimulationContext Context);
+
+#line 378 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitializeParticle_Emitter_Func_(inout FSimulationContext Context);
+
+#line 379 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ParticleState_Emitter_Func_(inout FSimulationContext Context);
+
+#line 380 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ConvertPositionToVector_Emitter_Func_(out float3 Out_NewOutput, inout FSimulationContext Context);
+
+#line 381 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void CustomHlsl3E16F8CF42077F42CB3024979CC880C9_Func_(float In_alpha, float In_beta, float In_delta, float In_epsilon, float In_rho, float In_zeta, float3 In_pos, out float3 Out_npos);
+
+#line 382 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ScratchModule_Emitter_Func_(inout FSimulationContext Context);
+
+#line 385 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_(int In_Engine_System_RandomSeed, float In_FloatMin, float In_FloatMax, int In_Seed, int In_Engine_System_TickCount, int In_Particles_UniqueID, int In_Emitter_RandomSeed, int In_Engine_Emitter_InstanceSeed, out float Out_RandomFloat, out bool Out_IsDeterministic, inout FSimulationContext Context)
+{
+	bool Constant15 = false;
+	float Result = In_FloatMax - In_FloatMin;
+	float Result1 = rand_float(Result);
+	float Result2 = In_FloatMin + Result1;
+	Out_RandomFloat = Result2;
+	Out_IsDeterministic = Constant15;
+}
+
+#line 397 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void NiagaraScript_333_Particle_Func_(float3 In_Engine_Owner_Position, out float3 Out_SimulationPosition, inout FSimulationContext Context)
+{
+	float3 Constant19 = float3(0,0,0);
+	Out_SimulationPosition = Constant19;
+}
+
+#line 405 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitializeParticle_Emitter_Func_(inout FSimulationContext Context)
+{
+	Context.MapSpawn.Particles.MaterialRandom = Context.MapSpawn.InitializeParticle.MaterialRandom;
+	Context.MapSpawn.Particles.Lifetime = Constants_Emitter_InitializeParticle_Lifetime;
+	float Constant17 = 1;
+	Context.MapSpawn.Particles.Mass = Constant17;
+	float3 Constant18 = float3(0,0,0);
+	float3 NiagaraScript_333_Particle_Func_Output_SimulationPosition;
+	NiagaraScript_333_Particle_Func_(Constant18, NiagaraScript_333_Particle_Func_Output_SimulationPosition, Context);
+	float Constant20 = 0;
+	float3 Result3 = Constants_Emitter_InitializeParticle_PositionOffset.xyz * Constant20;
+	float3 Result4 = NiagaraScript_333_Particle_Func_Output_SimulationPosition + Result3;
+	Context.MapSpawn.Particles.Position = Result4;
+	Context.MapSpawn.Local.InitializeParticle.InitRIbbonDistance = Context.MapSpawn.Particles.RibbonUVDistance;
+}
+
+#line 423 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ParticleState_Emitter_Func_(inout FSimulationContext Context)
+{
+	bool Result5 = NiagaraAll(Context.MapUpdate.Particles.Age <= Context.MapUpdate.Engine.DeltaTime);
+	Context.MapUpdate.OUTPUT_VAR.ParticleState.FirstFrame = Result5;
+	Context.MapUpdate.Transient.FirstFrame = Result5;
+	int Constant24 = 0;
+	bool Result6 = NiagaraAll(Context.MapUpdate.Emitter.ExecutionState != Constant24);
+	int Constant25 = 0;
+	bool Result7 = NiagaraAll(Context.MapUpdate.System.ExecutionState != Constant25);
+	bool Result8 = Result6 || Result7;
+	bool Result9 = Context.MapUpdate.ParticleState.LetInfinitelyLivedParticlesDieWhenEmitterDeactivates && Result8;
+	bool Result10 = !Result9;
+	bool Result11 = Context.MapUpdate.ParticleState.LoopParticlesLifetime && Result10;
+	float Result12 = Context.MapUpdate.Particles.Age + Context.MapUpdate.ParticleState.DeltaTime;
+	float Constant26 = 1e-05;
+	float Result13 = max(Context.MapUpdate.ParticleState.Lifetime, Constant26);
+	float Result14 = ModuloPrecise(Result12, Result13);
+	float Age_IfResult;
+	if(Result11)
+	{
+	Age_IfResult = Result14;
+	}
+	else
+	{
+	Age_IfResult = Result12;
+	}
+	float Constant27 = 0.0001;
+	float Result15 = Result13 - Constant27;
+	bool Result16 = NiagaraAll(Age_IfResult > Result15);
+	bool Result17 = Result16 && Result9;
+	bool Constant28 = false;
+	bool bool_IfResult;
+	if(Result17)
+	{
+	bool_IfResult = Constant28;
+	}
+	else
+	{
+	bool_IfResult = Context.MapUpdate.DataInstance.Alive;
+	}
+	float Result18 = Age_IfResult / Result13;
+	Context.MapUpdate.DataInstance.Alive = bool_IfResult;
+	Context.MapUpdate.Particles.Age = Age_IfResult;
+	Context.MapUpdate.Particles.NormalizedAge = Result18;
+	bool Constant29 = true;
+}
+
+#line 472 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ConvertPositionToVector_Emitter_Func_(out float3 Out_NewOutput, inout FSimulationContext Context)
+{
+	float3 Output1;
+	Output1.x = Context.MapUpdate.ConvertPositionToVector.InputPosition.x;
+	Output1.y = Context.MapUpdate.ConvertPositionToVector.InputPosition.y;
+	Output1.z = Context.MapUpdate.ConvertPositionToVector.InputPosition.z;
+	Out_NewOutput = Output1;
+}
+
+#line 483 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void CustomHlsl3E16F8CF42077F42CB3024979CC880C9_Func_(float In_alpha, float In_beta, float In_delta, float In_epsilon, float In_rho, float In_zeta, float3 In_pos, out float3 Out_npos)
+{
+
+Out_npos = In_pos;
+	float x = In_pos.x;
+	float y = In_pos.y;
+	float z = In_pos.z;
+	
+	float dx = In_alpha * (y-x) + In_delta * x * z;
+	float dy = In_rho * x + In_zeta * y - x * z;
+	float dz = In_beta * z + x * y - In_epsilon * x * x;
+	
+	Out_npos += iResolution(dx,dy,dz);
+}
+
+#line 500 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ScratchModule_Emitter_Func_(inout FSimulationContext Context)
+{
+	float3 CustomHlsl3E16F8CF42077F42CB3024979CC880C9_Func_Output_npos;
+	CustomHlsl3E16F8CF42077F42CB3024979CC880C9_Func_(Constants_Emitter_ScratchModule_alpha, Constants_Emitter_ScratchModule_beta, Constants_Emitter_ScratchModule_delta, Constants_Emitter_ScratchModule_epsilon, Constants_Emitter_ScratchModule_rho, Constants_Emitter_ScratchModule_zeta, Context.MapUpdate.ScratchModule.pos, CustomHlsl3E16F8CF42077F42CB3024979CC880C9_Func_Output_npos);
+	Context.MapUpdate.Particles.Velocity = CustomHlsl3E16F8CF42077F42CB3024979CC880C9_Func_Output_npos;
+}
+
+#line 514 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InterpolateParameters(inout FSimulationContext Context)
+{
+
+	int InterpSpawn_Index = ExecIndex();
+	float InterpSpawn_SpawnTime = Emitter_InterpSpawnStartDt + (Emitter_SpawnInterval * InterpSpawn_Index);
+	float InterpSpawn_UpdateTime = Engine_DeltaTime - InterpSpawn_SpawnTime;
+	float InterpSpawn_InvSpawnTime = 1.0 / InterpSpawn_SpawnTime;
+	float InterpSpawn_InvUpdateTime = 1.0 / InterpSpawn_UpdateTime;
+	float SpawnInterp = InterpSpawn_SpawnTime * Engine_InverseDeltaTime ;
+	HackSpawnInterp = SpawnInterp;
+	Context.MapSpawn.Interpolation.InterpSpawn_Index = InterpSpawn_Index;
+	Context.MapSpawn.Interpolation.InterpSpawn_SpawnTime = InterpSpawn_SpawnTime;
+	Context.MapSpawn.Interpolation.InterpSpawn_UpdateTime = InterpSpawn_UpdateTime;
+	Context.MapSpawn.Interpolation.InterpSpawn_InvSpawnTime = InterpSpawn_InvSpawnTime;
+	Context.MapSpawn.Interpolation.InterpSpawn_InvUpdateTime = InterpSpawn_InvUpdateTime;
+	Context.MapSpawn.Interpolation.SpawnInterp = SpawnInterp;
+	Context.MapSpawn.Interpolation.Emitter_SpawnInterval = Emitter_SpawnInterval;
+	Context.MapSpawn.Interpolation.Emitter_InterpSpawnStartDt = Emitter_InterpSpawnStartDt;
+	Context.MapSpawn.Interpolation.Emitter_SpawnGroup = Emitter_SpawnGroup;
+	Context.MapSpawn.Engine.Time = lerp(PREV_Engine_Time, Engine_Time, SpawnInterp);
+	Context.MapSpawn.Engine.RealTime = lerp(PREV_Engine_RealTime, Engine_RealTime, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.TimeSinceRendered = lerp(PREV_Engine_Owner_TimeSinceRendered, Engine_Owner_TimeSinceRendered, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.LODDistance = lerp(PREV_Engine_Owner_LODDistance, Engine_Owner_LODDistance, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.LODDistanceFraction = lerp(PREV_Engine_Owner_LODDistanceFraction, Engine_Owner_LODDistanceFraction, SpawnInterp);
+	Context.MapSpawn.Engine.System.Age = lerp(PREV_Engine_System_Age, Engine_System_Age, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Rotation = lerp(PREV_Engine_Owner_Rotation, Engine_Owner_Rotation, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Position = lerp(PREV_Engine_Owner_Position, Engine_Owner_Position, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Velocity = lerp(PREV_Engine_Owner_Velocity, Engine_Owner_Velocity, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.SystemXAxis = lerp(PREV_Engine_Owner_SystemXAxis, Engine_Owner_SystemXAxis, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.SystemYAxis = lerp(PREV_Engine_Owner_SystemYAxis, Engine_Owner_SystemYAxis, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.SystemZAxis = lerp(PREV_Engine_Owner_SystemZAxis, Engine_Owner_SystemZAxis, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.Scale = lerp(PREV_Engine_Owner_Scale, Engine_Owner_Scale, SpawnInterp);
+	Context.MapSpawn.Engine.Owner.LWCTile = lerp(PREV_Engine_Owner_LWCTile, Engine_Owner_LWCTile, SpawnInterp);
+	Context.MapSpawn.Emitter.Age = lerp(PREV_Emitter_Age, Emitter_Age, SpawnInterp);
+	Context.MapSpawn.Emitter.DistanceTraveled = lerp(PREV_Emitter_DistanceTraveled, Emitter_DistanceTraveled, SpawnInterp);
+	Context.MapUpdate.Engine.DeltaTime = InterpSpawn_UpdateTime;
+	Context.MapUpdate.Engine.InverseDeltaTime = InterpSpawn_InvUpdateTime;
+
+}
+
+#line 555 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void HandlePreviousValuesForSpawn(inout FSimulationContext Context)
+{
+Context.MapSpawn.Particles.Previous.Position = Context.MapSpawn.Particles.Position;
+
+Context.MapSpawn.Particles.Previous.Velocity = Context.MapSpawn.Particles.Velocity;
+
+}
+
+#line 564 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ReadDataSets(inout FSimulationContext Context)
+{
+}
+
+#line 568 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void WriteDataSets(inout FSimulationContext Context)
+{
+}
+
+#line 573 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SimulateMapSpawn(inout FSimulationContext Context)
+{
+	
+	
+	float Constant = (0.0);
+	Context.MapSpawn.Particles.MaterialRandom = Constant;
+	float Constant1 = (0.0);
+	Context.MapSpawn.Particles.Lifetime = Constant1;
+	float Constant2 = 1;
+	Context.MapSpawn.Particles.Mass = Constant2;
+	float3 Constant3 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.Position = Constant3;
+	float Constant4 = 0;
+	Context.MapSpawn.Particles.Age = Constant4;
+	float Constant5 = (0.0);
+	Context.MapSpawn.Particles.NormalizedAge = Constant5;
+	float3 Constant6 = float3(0.0, 0.0, 0.0);
+	Context.MapSpawn.Particles.Velocity = Constant6;
+	
+	int Constant7 = (0);
+	float Constant8 = 0;
+	float Constant9 = 1;
+	int Constant10 = -1;
+	int Constant11 = (0);
+	int Constant12 = 0;
+	int Constant13 = (0);
+	int Constant14 = (0);
+	float NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_Output_RandomFloat;
+	bool NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_Output_IsDeterministic;
+	NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_(Constant7, Constant8, Constant9, Constant10, Constant11, Constant12, Constant13, Constant14, NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_Output_RandomFloat, NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_Output_IsDeterministic, Context);
+	Context.MapSpawn.InitializeParticle.MaterialRandom = NiagaraScript_324_Particle_Particle_ScriptUsage4_EvaluationType_NewEnumerator0_FixedRandomSeed_false_OverrideSeed_false_RandomnessMode_NewEnumerator0_Func_Output_RandomFloat;
+	int Constant16 = 0;
+	Context.MapSpawn.InitializeParticle.PositionOffsetCoordinateSpace = Constant16;
+	Context.MapSpawn.Particles.RibbonUVDistance = Context.MapSpawn.Emitter.DistanceTraveled;
+	EnterStatScope(1 );
+	InitializeParticle_Emitter_Func_(Context);
+	ExitStatScope();
+	
+
+
+	
+	HandlePreviousValuesForSpawn(Context);
+	
+	
+
+
+}
+
+#line 622 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void SimulateMapUpdate(inout FSimulationContext Context)
+{
+	
+	RandomCounterDeterministic = 0;
+	bool Constant21 = true;
+	Context.MapUpdate.ParticleState.LoopParticlesLifetime = Constant21;
+	bool Constant22 = true;
+	Context.MapUpdate.DataInstance.Alive = Constant22;
+	Context.MapUpdate.ParticleState.DeltaTime = Context.MapUpdate.Engine.DeltaTime;
+	Context.MapUpdate.ParticleState.Lifetime = Context.MapUpdate.Particles.Lifetime;
+	bool Constant23 = false;
+	Context.MapUpdate.ParticleState.LetInfinitelyLivedParticlesDieWhenEmitterDeactivates = Constant23;
+	EnterStatScope(2 );
+	ParticleState_Emitter_Func_(Context);
+	ExitStatScope();
+	Context.MapUpdate.ConvertPositionToVector.InputPosition = Context.MapUpdate.Particles.Position;
+	float3 ConvertPositionToVector_Emitter_Func_Output_NewOutput;
+	ConvertPositionToVector_Emitter_Func_(ConvertPositionToVector_Emitter_Func_Output_NewOutput, Context);
+	Context.MapUpdate.ScratchModule.pos = ConvertPositionToVector_Emitter_Func_Output_NewOutput;
+	EnterStatScope(3 );
+	ScratchModule_Emitter_Func_(Context);
+	ExitStatScope();
+	
+
+
+}
+
+#line 649 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitConstants(inout FSimulationContext Context)
+{
+
+	Context.MapSpawn.Emitter.DistanceTraveled = Emitter_DistanceTraveled;
+
+
+	Context.MapUpdate.Engine.DeltaTime = Engine_DeltaTime;
+	Context.MapUpdate.Emitter.ExecutionState = Emitter_ExecutionState;
+	Context.MapUpdate.System.ExecutionState = System_ExecutionState;
+	Context.MapUpdate.Engine.Time = Engine_Time;
+	Context.MapUpdate.Engine.WorldDeltaTime = Engine_WorldDeltaTime;
+	Context.MapUpdate.Engine.InverseDeltaTime = Engine_InverseDeltaTime;
+	Context.MapUpdate.Engine.ExecutionCount = Engine_ExecutionCount;
+	Context.MapUpdate.Emitter.SpawnRate = Emitter_SpawnRate;
+	Context.MapUpdate.Engine.Emitter.TotalSpawnedParticles = Engine_Emitter_TotalSpawnedParticles;
+	Context.MapUpdate.Emitter.RandomSeed = Emitter_RandomSeed;
+	Context.MapUpdate.Engine.Emitter.InstanceSeed = Engine_Emitter_InstanceSeed;
+	Context.MapUpdate.Engine.System.RandomSeed = Engine_System_RandomSeed;
+
+}
+
+#line 670 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void InitSpawnVariables(inout FSimulationContext Context)
+{
+
+	Context.MapSpawn.Particles.Age = 0.0f;
+	Context.MapSpawn.Particles.Lifetime = 0.0f;
+	Context.MapSpawn.Particles.Mass = 0.0f;
+	Context.MapSpawn.Particles.MaterialRandom = 0.0f;
+	Context.MapSpawn.Particles.NormalizedAge = 0.0f;
+	Context.MapSpawn.Particles.Position.x = 0.0f;
+	Context.MapSpawn.Particles.Position.y = 0.0f;
+	Context.MapSpawn.Particles.Position.z = 0.0f;
+	Context.MapSpawn.Particles.Previous.Position.x = 0.0f;
+	Context.MapSpawn.Particles.Previous.Position.y = 0.0f;
+	Context.MapSpawn.Particles.Previous.Position.z = 0.0f;
+	Context.MapSpawn.Particles.Previous.Velocity.x = 0.0f;
+	Context.MapSpawn.Particles.Previous.Velocity.y = 0.0f;
+	Context.MapSpawn.Particles.Previous.Velocity.z = 0.0f;
+	Context.MapSpawn.Particles.RibbonUVDistance = 0.0f;
+	Context.MapSpawn.Particles.UniqueID = 0;
+	Context.MapSpawn.Particles.Velocity.x = 0.0f;
+	Context.MapSpawn.Particles.Velocity.y = 0.0f;
+	Context.MapSpawn.Particles.Velocity.z = 0.0f;
+
+	Context.MapSpawn.DataInstance.Alive=true;
+
+}
+
+#line 697 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void LoadUpdateVariables(inout FSimulationContext Context, int InstanceIdx)
+{
+
+		Context.MapUpdate.Array.Age = 0;
+		Context.MapUpdate.Particles.Age = InputDataFloat(0, 0, InstanceIdx);
+		Context.MapUpdate.Array.Lifetime = 1;
+		Context.MapUpdate.Particles.Lifetime = InputDataFloat(0, 1, InstanceIdx);
+		Context.MapUpdate.Array.Mass = 2;
+		Context.MapUpdate.Particles.Mass = InputDataFloat(0, 2, InstanceIdx);
+		Context.MapUpdate.Array.MaterialRandom = 3;
+		Context.MapUpdate.Particles.MaterialRandom = InputDataFloat(0, 3, InstanceIdx);
+		Context.MapUpdate.Array.NormalizedAge = 4;
+		Context.MapUpdate.Particles.NormalizedAge = InputDataFloat(0, 4, InstanceIdx);
+		Context.MapUpdate.Array.Position = 5;
+		Context.MapUpdate.Particles.Position.x = InputDataFloat(0, 5, InstanceIdx);
+		Context.MapUpdate.Particles.Position.y = InputDataFloat(0, 6, InstanceIdx);
+		Context.MapUpdate.Particles.Position.z = InputDataFloat(0, 7, InstanceIdx);
+		Context.MapUpdate.Array.RibbonUVDistance = 14;
+		Context.MapUpdate.Particles.RibbonUVDistance = InputDataFloat(0, 14, InstanceIdx);
+		Context.MapUpdate.Array.UniqueID = 0;
+		Context.MapUpdate.Particles.UniqueID = InputDataInt(0, 0, InstanceIdx);
+		Context.MapUpdate.Array.Velocity = 15;
+		Context.MapUpdate.Particles.Velocity.x = InputDataFloat(0, 15, InstanceIdx);
+		Context.MapUpdate.Particles.Velocity.y = InputDataFloat(0, 16, InstanceIdx);
+		Context.MapUpdate.Particles.Velocity.z = InputDataFloat(0, 17, InstanceIdx);
+		Context.MapUpdate.Particles.Previous.Position = 		Context.MapUpdate.Particles.Position;
+		Context.MapUpdate.Particles.Previous.Velocity = 		Context.MapUpdate.Particles.Velocity;
+		Context.MapUpdate.DataInstance.Alive=true;
+
+}
+
+#line 728 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void ConditionalInterpolateParameters(inout FSimulationContext Context)
+{
+	InterpolateParameters(Context);
+}
+
+#line 733 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void TransferAttributes(inout FSimulationContext Context)
+{
+
+		Context.MapUpdate.Particles = Context.MapSpawn.Particles;
+		Context.MapUpdate.DataInstance.Alive = true;
+
+}
+
+#line 741 "/Engine/Generated/NiagaraEmitterInstance.ush"
+void StoreUpdateVariables(in FSimulationContext Context, bool bIsValidInstance)
+{
+
+		const bool bValid = bIsValidInstance && Context.MapUpdate.DataInstance.Alive;
+		const int WriteIndex = OutputIndex(0, true, bValid);
+		if (bValid)
+		{
+			OutputDataFloat(0, 0, WriteIndex, Context.MapUpdate.Particles.Age);
+			OutputDataFloat(0, 1, WriteIndex, Context.MapUpdate.Particles.Lifetime);
+			OutputDataFloat(0, 2, WriteIndex, Context.MapUpdate.Particles.Mass);
+			OutputDataFloat(0, 3, WriteIndex, Context.MapUpdate.Particles.MaterialRandom);
+			OutputDataFloat(0, 4, WriteIndex, Context.MapUpdate.Particles.NormalizedAge);
+			OutputDataFloat(0, 5, WriteIndex, Context.MapUpdate.Particles.Position.x);
+			OutputDataFloat(0, 6, WriteIndex, Context.MapUpdate.Particles.Position.y);
+			OutputDataFloat(0, 7, WriteIndex, Context.MapUpdate.Particles.Position.z);
+			OutputDataFloat(0, 8, WriteIndex, Context.MapUpdate.Particles.Previous.Position.x);
+			OutputDataFloat(0, 9, WriteIndex, Context.MapUpdate.Particles.Previous.Position.y);
+			OutputDataFloat(0, 10, WriteIndex, Context.MapUpdate.Particles.Previous.Position.z);
+			OutputDataFloat(0, 11, WriteIndex, Context.MapUpdate.Particles.Previous.Velocity.x);
+			OutputDataFloat(0, 12, WriteIndex, Context.MapUpdate.Particles.Previous.Velocity.y);
+			OutputDataFloat(0, 13, WriteIndex, Context.MapUpdate.Particles.Previous.Velocity.z);
+			OutputDataFloat(0, 14, WriteIndex, Context.MapUpdate.Particles.RibbonUVDistance);
+			OutputDataInt(0, 0, WriteIndex, Context.MapUpdate.Particles.UniqueID);
+			OutputDataFloat(0, 15, WriteIndex, Context.MapUpdate.Particles.Velocity.x);
+			OutputDataFloat(0, 16, WriteIndex, Context.MapUpdate.Particles.Velocity.y);
+			OutputDataFloat(0, 17, WriteIndex, Context.MapUpdate.Particles.Velocity.z);
+		}
+
+
+}
+
+#line 782 "/Engine/Generated/NiagaraEmitterInstance.ush"
+[numthreads(64, 1, 1)]
+void SimulateMainComputeCS(
+	uint3 InDispatchThreadId	: SV_DispatchThreadID,
+	uint3 InGroupId				: SV_GroupID,
+	uint3 InGroupThreadId		: SV_GroupThreadID,
+	uint  InGroupIndex			: SV_GroupIndex)
+{
+	GDispatchThreadId	= InDispatchThreadId;
+	GGroupId			= InGroupId;
+	GGroupThreadId		= InGroupThreadId;
+	GGroupIndex			= InGroupIndex;
+	GEmitterTickCounter = EmitterTickCounter;
+	GRandomSeedOffset = 0;
+
+
+
+
+
+
+
+
+
+
+
+	GLinearThreadId		= GDispatchThreadId.x + (GDispatchThreadId.y * DispatchThreadIdToLinear.y);
+	
+
+
+
+
+	bool bRunSpawnUpdateLogic = true;
+	if (ReadInstanceCountOffset == 0xFFFFFFFF)
+	{
+		GSpawnStartInstance = 0;
+	}
+	else
+	{
+		GSpawnStartInstance = RWInstanceCounts[ReadInstanceCountOffset];
+	}
+	const uint MaxInstances = GSpawnStartInstance + NumSpawnedInstances;
+	const bool bRunUpdateLogic = bRunSpawnUpdateLogic && GLinearThreadId < GSpawnStartInstance && GLinearThreadId < MaxInstances;
+	const bool bRunSpawnLogic = bRunSpawnUpdateLogic && GLinearThreadId >= GSpawnStartInstance && GLinearThreadId < MaxInstances;
+	
+	const float RandomSeedInitialisation = NiagaraInternalNoise(GLinearThreadId * 16384, 0 * 8196, (bRunUpdateLogic ? 4096 : 0) + EmitterTickCounter);	
+	
+	FSimulationContext Context = (FSimulationContext)0;
+	[branch]
+	if (bRunUpdateLogic)
+	{
+		SetupExecIndexForGPU();
+		InitConstants(Context);
+		LoadUpdateVariables(Context, GLinearThreadId);
+		ReadDataSets(Context);
+	}
+	else if (bRunSpawnLogic)
+	{
+		SetupExecIndexAndSpawnInfoForGPU();
+		InitConstants(Context);
+		InitSpawnVariables(Context);
+		ReadDataSets(Context);
+		Context.MapSpawn.Particles.UniqueID = Engine_Emitter_TotalSpawnedParticles + GLinearThreadId - GSpawnStartInstance;
+		ConditionalInterpolateParameters(Context);
+		SimulateMapSpawn(Context);
+		TransferAttributes(Context);
+	}
+
+	if (bRunUpdateLogic || bRunSpawnLogic)
+	{
+		SimulateMapUpdate(Context);
+		WriteDataSets(Context);
+	}
+
+	StoreUpdateVariables(Context, bRunUpdateLogic || bRunSpawnLogic);
+
+
+}
+
+
+
+#if 0 /*BEGIN_RESOURCE_TABLES*/
+View, 376963194
+Strata, 158337041
+DrawRectangleParameters, 3145984
+InstancedView, 450888449
+MobileSceneTextures, 147131313
+SceneTexturesStruct, 158338568
+StrataPublic, 1048841
+NULL, 0
+View_MaterialTextureBilinearWrapedSampler, View, 8, 0
+View_MaterialTextureBilinearClampedSampler, View, 8, 1
+View_VolumetricLightmapIndirectionTexture, View, 5, 2
+View_VolumetricLightmapBrickAmbientVector, View, 5, 3
+View_VolumetricLightmapBrickSHCoefficients0, View, 5, 4
+View_VolumetricLightmapBrickSHCoefficients1, View, 5, 5
+View_VolumetricLightmapBrickSHCoefficients2, View, 5, 6
+View_VolumetricLightmapBrickSHCoefficients3, View, 5, 7
+View_VolumetricLightmapBrickSHCoefficients4, View, 5, 8
+View_VolumetricLightmapBrickSHCoefficients5, View, 5, 9
+View_SkyBentNormalBrickTexture, View, 5, 10
+View_DirectionalLightShadowingBrickTexture, View, 5, 11
+View_VolumetricLightmapBrickAmbientVectorSampler, View, 8, 12
+View_VolumetricLightmapTextureSampler0, View, 8, 13
+View_VolumetricLightmapTextureSampler1, View, 8, 14
+View_VolumetricLightmapTextureSampler2, View, 8, 15
+View_VolumetricLightmapTextureSampler3, View, 8, 16
+View_VolumetricLightmapTextureSampler4, View, 8, 17
+View_VolumetricLightmapTextureSampler5, View, 8, 18
+View_SkyBentNormalTextureSampler, View, 8, 19
+View_DirectionalLightShadowingTextureSampler, View, 8, 20
+View_GlobalDistanceFieldPageAtlasTexture, View, 5, 21
+View_GlobalDistanceFieldCoverageAtlasTexture, View, 5, 22
+View_GlobalDistanceFieldPageTableTexture, View, 5, 23
+View_GlobalDistanceFieldMipTexture, View, 5, 24
+View_GlobalDistanceFieldPageAtlasTextureSampler, View, 8, 25
+View_GlobalDistanceFieldCoverageAtlasTextureSampler, View, 8, 26
+View_GlobalDistanceFieldMipTextureSampler, View, 8, 27
+View_AtmosphereTransmittanceTexture, View, 5, 28
+View_AtmosphereTransmittanceTextureSampler, View, 8, 29
+View_AtmosphereIrradianceTexture, View, 5, 30
+View_AtmosphereIrradianceTextureSampler, View, 8, 31
+View_AtmosphereInscatterTexture, View, 5, 32
+View_AtmosphereInscatterTextureSampler, View, 8, 33
+View_PerlinNoiseGradientTexture, View, 5, 34
+View_PerlinNoiseGradientTextureSampler, View, 8, 35
+View_PerlinNoise3DTexture, View, 5, 36
+View_PerlinNoise3DTextureSampler, View, 8, 37
+View_SobolSamplingTexture, View, 5, 38
+View_SharedPointWrappedSampler, View, 8, 39
+View_SharedPointClampedSampler, View, 8, 40
+View_SharedBilinearWrappedSampler, View, 8, 41
+View_SharedBilinearClampedSampler, View, 8, 42
+View_SharedBilinearAnisoClampedSampler, View, 8, 43
+View_SharedTrilinearWrappedSampler, View, 8, 44
+View_SharedTrilinearClampedSampler, View, 8, 45
+View_PreIntegratedBRDF, View, 5, 46
+View_PreIntegratedBRDFSampler, View, 8, 47
+View_SkyIrradianceEnvironmentMap, View, 6, 48
+View_TransmittanceLutTexture, View, 5, 49
+View_TransmittanceLutTextureSampler, View, 8, 50
+View_SkyViewLutTexture, View, 5, 51
+View_SkyViewLutTextureSampler, View, 8, 52
+View_DistantSkyLightLutTexture, View, 5, 53
+View_DistantSkyLightLutTextureSampler, View, 8, 54
+View_CameraAerialPerspectiveVolume, View, 5, 55
+View_CameraAerialPerspectiveVolumeSampler, View, 8, 56
+View_CameraAerialPerspectiveVolumeMieOnly, View, 5, 57
+View_CameraAerialPerspectiveVolumeMieOnlySampler, View, 8, 58
+View_CameraAerialPerspectiveVolumeRayOnly, View, 5, 59
+View_CameraAerialPerspectiveVolumeRayOnlySampler, View, 8, 60
+View_HairScatteringLUTTexture, View, 5, 61
+View_HairScatteringLUTSampler, View, 8, 62
+View_GGXLTCMatTexture, View, 5, 63
+View_GGXLTCMatSampler, View, 8, 64
+View_GGXLTCAmpTexture, View, 5, 65
+View_GGXLTCAmpSampler, View, 8, 66
+View_SheenLTCTexture, View, 5, 67
+View_SheenLTCSampler, View, 8, 68
+View_ShadingEnergyGGXSpecTexture, View, 5, 69
+View_ShadingEnergyGGXGlassTexture, View, 5, 70
+View_ShadingEnergyClothSpecTexture, View, 5, 71
+View_ShadingEnergyDiffuseTexture, View, 5, 72
+View_ShadingEnergySampler, View, 8, 73
+View_GlintTexture, View, 5, 74
+View_GlintSampler, View, 8, 75
+View_SimpleVolumeTexture, View, 5, 76
+View_SimpleVolumeTextureSampler, View, 8, 77
+View_SimpleVolumeEnvTexture, View, 5, 78
+View_SimpleVolumeEnvTextureSampler, View, 8, 79
+View_SSProfilesTexture, View, 5, 80
+View_SSProfilesSampler, View, 8, 81
+View_SSProfilesTransmissionSampler, View, 8, 82
+View_SSProfilesPreIntegratedTexture, View, 5, 83
+View_SSProfilesPreIntegratedSampler, View, 8, 84
+View_SpecularProfileTexture, View, 5, 85
+View_SpecularProfileSampler, View, 8, 86
+View_WaterIndirection, View, 6, 87
+View_WaterData, View, 6, 88
+View_RectLightAtlasTexture, View, 5, 89
+View_RectLightAtlasSampler, View, 8, 90
+View_IESAtlasTexture, View, 5, 91
+View_IESAtlasSampler, View, 8, 92
+View_LandscapeWeightmapSampler, View, 8, 93
+View_LandscapeIndirection, View, 6, 94
+View_LandscapePerComponentData, View, 6, 95
+View_VTFeedbackBuffer, View, 7, 96
+View_PhysicsFieldClipmapBuffer, View, 6, 97
+Strata_MaterialTextureArray, Strata, 9, 0
+Strata_TopLayerTexture, Strata, 9, 1
+Strata_OpaqueRoughRefractionTexture, Strata, 9, 2
+Strata_BSDFOffsetTexture, Strata, 9, 3
+Strata_BSDFTileTexture, Strata, 9, 4
+Strata_BSDFTileCountBuffer, Strata, 16, 5
+MobileSceneTextures_SceneColorTexture, MobileSceneTextures, 9, 0
+MobileSceneTextures_SceneColorTextureSampler, MobileSceneTextures, 8, 1
+MobileSceneTextures_SceneDepthTexture, MobileSceneTextures, 9, 2
+MobileSceneTextures_SceneDepthTextureSampler, MobileSceneTextures, 8, 3
+MobileSceneTextures_ScenePartialDepthTexture, MobileSceneTextures, 9, 4
+MobileSceneTextures_ScenePartialDepthTextureSampler, MobileSceneTextures, 8, 5
+MobileSceneTextures_CustomDepthTexture, MobileSceneTextures, 9, 6
+MobileSceneTextures_CustomDepthTextureSampler, MobileSceneTextures, 8, 7
+MobileSceneTextures_CustomStencilTexture, MobileSceneTextures, 12, 8
+MobileSceneTextures_SceneVelocityTexture, MobileSceneTextures, 9, 9
+MobileSceneTextures_SceneVelocityTextureSampler, MobileSceneTextures, 8, 10
+MobileSceneTextures_GBufferATexture, MobileSceneTextures, 9, 11
+MobileSceneTextures_GBufferBTexture, MobileSceneTextures, 9, 12
+MobileSceneTextures_GBufferCTexture, MobileSceneTextures, 9, 13
+MobileSceneTextures_GBufferDTexture, MobileSceneTextures, 9, 14
+MobileSceneTextures_SceneDepthAuxTexture, MobileSceneTextures, 9, 15
+MobileSceneTextures_LocalLightTextureA, MobileSceneTextures, 9, 16
+MobileSceneTextures_LocalLightTextureB, MobileSceneTextures, 9, 17
+MobileSceneTextures_GBufferATextureSampler, MobileSceneTextures, 8, 18
+MobileSceneTextures_GBufferBTextureSampler, MobileSceneTextures, 8, 19
+MobileSceneTextures_GBufferCTextureSampler, MobileSceneTextures, 8, 20
+MobileSceneTextures_GBufferDTextureSampler, MobileSceneTextures, 8, 21
+MobileSceneTextures_SceneDepthAuxTextureSampler, MobileSceneTextures, 8, 22
+SceneTexturesStruct_SceneColorTexture, SceneTexturesStruct, 9, 0
+SceneTexturesStruct_SceneDepthTexture, SceneTexturesStruct, 9, 1
+SceneTexturesStruct_ScenePartialDepthTexture, SceneTexturesStruct, 9, 2
+SceneTexturesStruct_GBufferATexture, SceneTexturesStruct, 9, 3
+SceneTexturesStruct_GBufferBTexture, SceneTexturesStruct, 9, 4
+SceneTexturesStruct_GBufferCTexture, SceneTexturesStruct, 9, 5
+SceneTexturesStruct_GBufferDTexture, SceneTexturesStruct, 9, 6
+SceneTexturesStruct_GBufferETexture, SceneTexturesStruct, 9, 7
+SceneTexturesStruct_GBufferFTexture, SceneTexturesStruct, 9, 8
+SceneTexturesStruct_GBufferVelocityTexture, SceneTexturesStruct, 9, 9
+SceneTexturesStruct_ScreenSpaceAOTexture, SceneTexturesStruct, 9, 10
+SceneTexturesStruct_CustomDepthTexture, SceneTexturesStruct, 9, 11
+SceneTexturesStruct_CustomStencilTexture, SceneTexturesStruct, 12, 12
+SceneTexturesStruct_PointClampSampler, SceneTexturesStruct, 8, 13
+StrataPublic_TopLayerTexture, StrataPublic, 9, 0
+NULL, NULL, 0, 0
+#endif /*END_RESOURCE_TABLES*/
+#if 0 /*DIRECT COMPILE*/
+-directcompile -format=PCD3D_SM6 -entry=SimulateMainComputeCS -shaderPlatformName=PCD3D_SM6 -cs E:/Unreal Engine/Projects/Tirocinio/Saved/ShaderDebugInfo/PCD3D_SM6/SA_Particles/source/ParticleGPUComputeScript/FNiagaraShader/0/NiagaraEmitterInstanceShader.usf -cflags=8589938688 -nocrashreports
+#endif /*DIRECT COMPILE*/

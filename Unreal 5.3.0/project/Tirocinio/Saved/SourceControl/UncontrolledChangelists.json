@@ -7,8 +7,6 @@
 			"files": [
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Maps/VisualEffects.umap",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Blueprint/BP_OSCIn.uasset",
-				"E:/Unreal Engine/Projects/Tirocinio/Content/FX/NS_AudioReactive.uasset",
-				"E:/Unreal Engine/Projects/Tirocinio/Content/Blueprint/BP_ParticlesEffect.uasset",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Models/12328_Statue.uasset",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Models/12328_Statue_v1_L2.uasset",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Models/statue.uasset",
@@ -29,6 +27,11 @@
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Materials/Orb_Inst.uasset",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Materials/Particle_Inst.uasset",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/Blueprint/BP_AudioParticles.uasset",
+				"E:/Unreal Engine/Projects/Tirocinio/Content/FX/SA_Particles.uasset",
+				"E:/Unreal Engine/Projects/Tirocinio/Content/Blueprint/BP_Attractor.uasset",
+				"E:/Unreal Engine/Projects/Tirocinio/Content/Blueprint/BP_Attactor.uasset",
+				"E:/Unreal Engine/Projects/Tirocinio/Content/FX/NS_AudioReactive.uasset",
+				"E:/Unreal Engine/Projects/Tirocinio/Content/Blueprint/BP_ParticlesEffect.uasset",
 				"E:/Unreal Engine/Projects/Tirocinio/Content/FX/NS_AudioParticles.uasset"
 			]
 		}
