@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"E:\\Unreal Engine\\Projects\\Tirocinio\\Plugins\\NDIIO\\Source\\Core\\NDIIO.Build.cs",
-		"E:\\Unreal Engine\\Projects\\Tirocinio\\Plugins\\NDIIO\\Source\\Editor\\NDIIOEditor.Build.cs",
-		"E:\\Unreal Engine\\Projects\\Tirocinio\\Plugins\\NDIIO\\Source\\Shaders\\NDIIOShaders.build.cs",
-		"E:\\Unreal Engine\\Projects\\Tirocinio\\Plugins\\NDIIO\\Source\\ThirdParty\\NDI\\NDI.Build.cs"
-	],
-	"EngineVersion": "5.3.0"
-}

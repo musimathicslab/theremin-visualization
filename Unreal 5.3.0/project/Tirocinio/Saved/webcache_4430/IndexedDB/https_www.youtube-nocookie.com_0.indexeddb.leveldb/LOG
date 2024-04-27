@@ -1,8 +1,0 @@
-2023/11/16-20:31:18.817 30a0 Reusing MANIFEST E:/Unreal Engine/Projects/Tirocinio/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/16-20:31:18.818 30a0 Recovering log #4
-2023/11/16-20:31:18.818 30a0 Reusing old log E:/Unreal Engine/Projects/Tirocinio/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/000004.log 
-2023/11/16-20:33:38.806 3240 Level-0 table #8: started
-2023/11/16-20:33:38.806 3240 Level-0 table #8: 0 bytes OK
-2023/11/16-20:33:38.870 3240 Delete type=0 #4
-2023/11/16-20:33:38.871 3240 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2023/11/16-20:33:38.871 3240 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
